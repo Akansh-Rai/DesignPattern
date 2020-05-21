@@ -24,7 +24,7 @@ public class EnemyRobot {
 	}
 	
 	public void reactToHuman(String name) {
-		System.err.println("Enemy robot kills "+ name + " person");
+		System.out.println("Enemy robot kills "+ name + " person");
 	}
 
 }

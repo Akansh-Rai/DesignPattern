@@ -7,11 +7,11 @@ package com.designPattern.structuralPatterns.adapter;
  * @author Akansh_Rai
  *
  */
-public class EnemyRobotAdapter implements EnemyAttacker {
+public class EnemyTankAdapter implements EnemyAttacker {
 
 	EnemyRobot robot;
 
-	public EnemyRobotAdapter(EnemyRobot robot) {
+	public EnemyTankAdapter(EnemyRobot robot) {
 		this.robot = robot;
 	}
 

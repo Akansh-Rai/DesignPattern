@@ -7,7 +7,7 @@ package com.designPattern.creationalPatterns.builder.RobotExample;
  * @author Akansh_Rai
  *
  */
-public class TestRobotBuilder {
+public class RobotBuilderClient {
 
 	/**
 	 * @param args

@@ -9,16 +9,11 @@ package com.designPattern.structuralPatterns.adapter;
  */
 public class TestEnemyAttacker {
 	public static void main(String[] args) {
-		EnemyTank enemyTank= new EnemyTank();
-		
 		EnemyRobot robot = new EnemyRobot();
-		
-		EnemyRobotAdapter roboAdapter = new EnemyRobotAdapter(robot);
-		
-		roboAdapter.assignDriver("Akansh");
-		roboAdapter.driveForward();
-		roboAdapter.fireWeapon();
-		
-		
+		EnemyTankAdapter tank = new EnemyTankAdapter(robot);
+
+		tank.assignDriver("Akansh");
+		tank.driveForward();
+		tank.fireWeapon();
 	}
 }
